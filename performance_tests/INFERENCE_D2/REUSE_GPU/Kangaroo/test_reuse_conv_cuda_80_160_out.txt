@@ -1,0 +1,11 @@
+Mean time: 20.87
+Run 1 - time: 21.31
+Run 2 - time: 20.84
+Run 3 - time: 20.81
+Run 4 - time: 20.81
+Run 5 - time: 20.83
+Run 6 - time: 20.83
+Run 7 - time: 20.82
+Run 8 - time: 20.81
+Run 9 - time: 20.81
+Run 10 - time: 20.84

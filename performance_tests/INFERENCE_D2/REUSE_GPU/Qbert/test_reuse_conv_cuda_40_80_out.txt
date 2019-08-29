@@ -1,0 +1,11 @@
+Mean time: 12.11
+Run 1 - time: 12.58
+Run 2 - time: 12.06
+Run 3 - time: 12.04
+Run 4 - time: 12.04
+Run 5 - time: 12.04
+Run 6 - time: 12.04
+Run 7 - time: 12.04
+Run 8 - time: 12.04
+Run 9 - time: 12.14
+Run 10 - time: 12.05

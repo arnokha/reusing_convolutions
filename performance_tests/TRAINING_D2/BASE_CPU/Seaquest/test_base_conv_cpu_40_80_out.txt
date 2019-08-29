@@ -1,0 +1,11 @@
+Mean time: 402.05
+Run 1 - time: 70.21
+Run 2 - time: 122.99
+Run 3 - time: 67.44
+Run 4 - time: 90.48
+Run 5 - time: 166.62
+Run 6 - time: 807.09
+Run 7 - time: 718.73
+Run 8 - time: 720.67
+Run 9 - time: 635.02
+Run 10 - time: 621.26
