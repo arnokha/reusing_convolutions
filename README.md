@@ -46,11 +46,7 @@ Number of filters in convolutional layers one and two: 80/160
 #### Training: time to run 3000 steps, grayscale, downsampled by a factor of 2 in each dimension
 
 Number of filters in convolutional layers one and two: 20/40
-![TD2_20_40](figures/training_d4_20_40_heatmap_no_cbar.png)
+![TD2_20_40](figures/training_d2_20_40_heatmap_no_cbar.png)
 
 Number of filters in convolutional layers one and two: 40/80
-![TD2_40_80](figures/training_d4_40_80_heatmap_no_cbar.png)
-
-Number of filters in convolutional layers one and two: 80/160
-![TD2_80_160](figures/training_d4_80_160_heatmap_no_cbar.png)
-
+![TD2_40_80](figures/training_d2_40_80_heatmap_no_cbar.png)
