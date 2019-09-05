@@ -61,10 +61,11 @@ gym[atari]
 jupyter notebook is required to view and run the notebooks in the root directory, but is not required for running performance tests.
 
 ### Reproducibility
-*To rerun tests (with modification)*:
+**To rerun tests (with modification)**:
+
 _Editing number of filters in each layer_: Download the repo, and edit the bash scripts located in each subfolder (e.g. "reusing_convolutions/performance_tests/INFERENCE_D2/REUSE_CPU/run_performance_tests_2_layers_1.sh"). You can run those tests individually or run them all at once from the parent directory.
 
 _Editing architecture further and other options_: Download the repo, and edit the python file located in each subfolder (e.g. "reusing_convolutions/performance_tests/INFERENCE_D2/REUSE_CPU/test_atari_2_layer_reuse_cpu.py").
 
-*To rerun tests (without modification)*: Download the repo, and run the bash script in each experiment category directory (e.g. "reusing_convolutions/tree/master/performance_tests/INFERENCE_D2/run_tests.sh")  
+**To rerun tests (without modification)**: Download the repo, and run the bash script in each experiment category directory (e.g. "reusing_convolutions/tree/master/performance_tests/INFERENCE_D2/run_tests.sh")  
 Alternatively, to run specific tests, you can edit and run scripts in the subfolders.
