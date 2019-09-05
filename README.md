@@ -5,6 +5,7 @@ Code for paper "Reusing Convolutional Activations from Frame to Frame to Speed u
 [Pytorch contributors](https://github.com/pytorch/examples/blob/master/reinforcement_learning/reinforce.py) REINFORCE functions select_action() and updade_policy()/finish_episode()
 
 ### Results - Atari
+Results are averaged over 10 runs. The policy network used for the experiments consists of 2 convolutional layer followed by a dense layer.
 
 #### Inference: time to run 3000 steps (in seconds), grayscale, downsampled by a factor of 4 in each dimension
 
