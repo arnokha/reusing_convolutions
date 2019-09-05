@@ -1,8 +1,3 @@
-<style>
-  th {font-size: 14;}
-  td {width: 100px; padding: 2px; text-align: right; font-size: 14;}
-</style>
-
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -10,6 +5,7 @@
       <th>base_cpu</th>
       <th>reuse_cpu</th>
       <th>base_gpu</th>
+      <th>reuse_gpu</th>
       <th>reuse_cpu/base_cpu</th>
       <th>reuse_cpu/base_gpu</th>
       <th>base_cpu/base_gpu</th>
@@ -21,6 +17,7 @@
       <td>96.62</td>
       <td>70.87</td>
       <td>15.97</td>
+      <td>15.78</td>
       <td>0.73</td>
       <td>4.44</td>
       <td>6.05</td>
@@ -30,6 +27,7 @@
       <td>84.4</td>
       <td>44.50</td>
       <td>-</td>
+      <td>15.83</td>
       <td>0.53</td>
       <td>-</td>
       <td>-</td>
@@ -42,12 +40,14 @@
       <td>-</td>
       <td>-</td>
       <td>-</td>
+      <td>-</td>
     </tr>
     <tr>
       <th>Asterix</th>
       <td>113.05</td>
       <td>42.35</td>
       <td>-</td>
+      <td>13.9</td>
       <td>0.37</td>
       <td>-</td>
       <td>-</td>
@@ -60,11 +60,13 @@
       <td>-</td>
       <td>-</td>
       <td>-</td>
+      <td>-</td>
     </tr>
     <tr>
       <th>BattleZone</th>
       <td>139.55</td>
       <td>67.17</td>
+      <td>-</td>
       <td>-</td>
       <td>0.48</td>
       <td>-</td>
@@ -75,6 +77,7 @@
       <td>378.36</td>
       <td>53.13</td>
       <td>-</td>
+      <td>14.73</td>
       <td>0.14</td>
       <td>-</td>
       <td>-</td>
@@ -84,6 +87,7 @@
       <td>256.99</td>
       <td>5.93</td>
       <td>-</td>
+      <td>11.57</td>
       <td>0.02</td>
       <td>-</td>
       <td>-</td>
@@ -92,6 +96,7 @@
       <th>ChopperCommand</th>
       <td>97.86</td>
       <td>80.12</td>
+      <td>-</td>
       <td>-</td>
       <td>0.82</td>
       <td>-</td>
@@ -102,6 +107,7 @@
       <td>220.07</td>
       <td>7.83</td>
       <td>-</td>
+      <td>11.31</td>
       <td>0.04</td>
       <td>-</td>
       <td>-</td>
@@ -110,6 +116,7 @@
       <th>DemonAttack</th>
       <td>207.85</td>
       <td>18.53</td>
+      <td>-</td>
       <td>-</td>
       <td>0.09</td>
       <td>-</td>
@@ -120,6 +127,7 @@
       <td>682.4</td>
       <td>275.74</td>
       <td>-</td>
+      <td>-</td>
       <td>0.4</td>
       <td>-</td>
       <td>-</td>
@@ -129,6 +137,7 @@
       <td>124.48</td>
       <td>29.48</td>
       <td>-</td>
+      <td>15.35</td>
       <td>0.24</td>
       <td>-</td>
       <td>-</td>
@@ -137,6 +146,7 @@
       <th>Hero</th>
       <td>278.48</td>
       <td>9.13</td>
+      <td>-</td>
       <td>-</td>
       <td>0.03</td>
       <td>-</td>
@@ -147,6 +157,7 @@
       <td>96.5</td>
       <td>58.05</td>
       <td>-</td>
+      <td>14.06</td>
       <td>0.6</td>
       <td>-</td>
       <td>-</td>
@@ -155,6 +166,7 @@
       <th>Krull</th>
       <td>584.89</td>
       <td>51.85</td>
+      <td>-</td>
       <td>-</td>
       <td>0.09</td>
       <td>-</td>
@@ -165,6 +177,7 @@
       <td>111.88</td>
       <td>47.89</td>
       <td>-</td>
+      <td>14.85</td>
       <td>0.43</td>
       <td>-</td>
       <td>-</td>
@@ -174,6 +187,7 @@
       <td>71.89</td>
       <td>51.13</td>
       <td>-</td>
+      <td>14.49</td>
       <td>0.71</td>
       <td>-</td>
       <td>-</td>
@@ -183,6 +197,7 @@
       <td>53.16</td>
       <td>22.56</td>
       <td>-</td>
+      <td>13.52</td>
       <td>0.42</td>
       <td>-</td>
       <td>-</td>
@@ -191,6 +206,7 @@
       <th>PrivateEye</th>
       <td>361.37</td>
       <td>11.79</td>
+      <td>-</td>
       <td>-</td>
       <td>0.03</td>
       <td>-</td>
@@ -201,6 +217,7 @@
       <td>62.71</td>
       <td>31.94</td>
       <td>-</td>
+      <td>14.03</td>
       <td>0.51</td>
       <td>-</td>
       <td>-</td>
@@ -210,6 +227,7 @@
       <td>101.1</td>
       <td>58.08</td>
       <td>-</td>
+      <td>14.28</td>
       <td>0.57</td>
       <td>-</td>
       <td>-</td>
@@ -218,6 +236,7 @@
       <th>Seaquest</th>
       <td>402.05</td>
       <td>34.64</td>
+      <td>-</td>
       <td>-</td>
       <td>0.09</td>
       <td>-</td>
@@ -228,18 +247,20 @@
       <td>144.95</td>
       <td>66.37</td>
       <td>-</td>
+      <td>-</td>
       <td>0.46</td>
       <td>-</td>
       <td>-</td>
     </tr>
     <tr>
       <th>Mean</th>
-      <td><b>212.3</b></td>
-      <td><b>51.29</b></td>
-      <td><b>15.97</b></td>
-      <td><b>0.35</b></td>
-      <td><b>4.44</b></td>
-      <td><b>6.05</b></td>
+      <td>212.3</td>
+      <td>51.29</td>
+      <td>15.97</td>
+      <td>14.13</td>
+      <td>0.35</td>
+      <td>4.44</td>
+      <td>6.05</td>
     </tr>
   </tbody>
 </table>

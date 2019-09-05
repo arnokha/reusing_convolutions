@@ -1,8 +1,3 @@
-<style>
-  th {font-size: 14;}
-  td {width: 100px; padding: 2px; text-align: right; font-size: 14;}
-</style>
-
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -10,6 +5,7 @@
       <th>base_cpu</th>
       <th>reuse_cpu</th>
       <th>base_gpu</th>
+      <th>reuse_gpu</th>
       <th>reuse_cpu/base_cpu</th>
       <th>reuse_cpu/base_gpu</th>
       <th>base_cpu/base_gpu</th>
@@ -19,26 +15,29 @@
     <tr>
       <th>Alien</th>
       <td>52.89</td>
-      <td>37.32</td>
-      <td>9.24</td>
-      <td>0.71</td>
-      <td>4.04</td>
-      <td>5.72</td>
+      <td>37.24</td>
+      <td>9.23</td>
+      <td>9.38</td>
+      <td>0.70</td>
+      <td>4.03</td>
+      <td>5.73</td>
     </tr>
     <tr>
       <th>Amidar</th>
       <td>53.92</td>
-      <td>23.30</td>
-      <td>9.71</td>
+      <td>23.06</td>
+      <td>9.68</td>
+      <td>8.69</td>
       <td>0.43</td>
-      <td>2.4</td>
-      <td>5.55</td>
+      <td>2.38</td>
+      <td>5.57</td>
     </tr>
     <tr>
       <th>Assault</th>
       <td>39.23</td>
-      <td>24.90</td>
+      <td>24.79</td>
       <td>-</td>
+      <td>9.62</td>
       <td>0.63</td>
       <td>-</td>
       <td>-</td>
@@ -46,8 +45,9 @@
     <tr>
       <th>Asterix</th>
       <td>43.70</td>
-      <td>26.85</td>
+      <td>26.75</td>
       <td>-</td>
+      <td>7.91</td>
       <td>0.61</td>
       <td>-</td>
       <td>-</td>
@@ -55,8 +55,9 @@
     <tr>
       <th>BankHeist</th>
       <td>33.94</td>
-      <td>14.93</td>
+      <td>14.86</td>
       <td>-</td>
+      <td>8.59</td>
       <td>0.44</td>
       <td>-</td>
       <td>-</td>
@@ -64,26 +65,29 @@
     <tr>
       <th>BattleZone</th>
       <td>48.67</td>
-      <td>37.36</td>
+      <td>36.94</td>
       <td>-</td>
-      <td>0.77</td>
+      <td>-</td>
+      <td>0.76</td>
       <td>-</td>
       <td>-</td>
     </tr>
     <tr>
       <th>Boxing</th>
       <td>50.22</td>
-      <td>26.92</td>
+      <td>26.86</td>
       <td>-</td>
-      <td>0.54</td>
+      <td>8.63</td>
+      <td>0.53</td>
       <td>-</td>
       <td>-</td>
     </tr>
     <tr>
       <th>Breakout</th>
       <td>27.44</td>
-      <td>5.75</td>
+      <td>5.80</td>
       <td>-</td>
+      <td>6.37</td>
       <td>0.21</td>
       <td>-</td>
       <td>-</td>
@@ -91,8 +95,9 @@
     <tr>
       <th>ChopperCommand</th>
       <td>52.52</td>
-      <td>41.98</td>
+      <td>42.13</td>
       <td>-</td>
+      <td>8.54</td>
       <td>0.80</td>
       <td>-</td>
       <td>-</td>
@@ -100,8 +105,9 @@
     <tr>
       <th>CrazyClimber</th>
       <td>18.27</td>
-      <td>5.32</td>
+      <td>5.33</td>
       <td>-</td>
+      <td>6.16</td>
       <td>0.29</td>
       <td>-</td>
       <td>-</td>
@@ -109,26 +115,29 @@
     <tr>
       <th>DemonAttack</th>
       <td>20.34</td>
-      <td>9.95</td>
+      <td>9.73</td>
       <td>-</td>
-      <td>0.49</td>
+      <td>7.17</td>
+      <td>0.48</td>
       <td>-</td>
       <td>-</td>
     </tr>
     <tr>
       <th>Freeway</th>
       <td>38.85</td>
-      <td>36.34</td>
+      <td>36.32</td>
       <td>-</td>
-      <td>0.94</td>
+      <td>-</td>
+      <td>0.93</td>
       <td>-</td>
       <td>-</td>
     </tr>
     <tr>
       <th>Gopher</th>
       <td>37.27</td>
-      <td>11.85</td>
+      <td>11.81</td>
       <td>-</td>
+      <td>8.54</td>
       <td>0.32</td>
       <td>-</td>
       <td>-</td>
@@ -136,8 +145,9 @@
     <tr>
       <th>Hero</th>
       <td>20.34</td>
-      <td>5.78</td>
+      <td>5.76</td>
       <td>-</td>
+      <td>6.75</td>
       <td>0.28</td>
       <td>-</td>
       <td>-</td>
@@ -145,17 +155,19 @@
     <tr>
       <th>Kangaroo</th>
       <td>54.73</td>
-      <td>26.82</td>
+      <td>26.87</td>
       <td>8.82</td>
+      <td>7.82</td>
       <td>0.49</td>
-      <td>3.04</td>
+      <td>3.05</td>
       <td>6.21</td>
     </tr>
     <tr>
       <th>Krull</th>
       <td>32.97</td>
-      <td>32.02</td>
+      <td>31.82</td>
       <td>-</td>
+      <td>8.13</td>
       <td>0.97</td>
       <td>-</td>
       <td>-</td>
@@ -163,35 +175,39 @@
     <tr>
       <th>KungFuMaster</th>
       <td>48.38</td>
-      <td>22.07</td>
+      <td>21.93</td>
       <td>-</td>
-      <td>0.46</td>
+      <td>8.47</td>
+      <td>0.45</td>
       <td>-</td>
       <td>-</td>
     </tr>
     <tr>
       <th>MsPacman</th>
       <td>46.82</td>
-      <td>31.97</td>
+      <td>31.66</td>
       <td>8.33</td>
+      <td>8.54</td>
       <td>0.68</td>
-      <td>3.84</td>
+      <td>3.8</td>
       <td>5.62</td>
     </tr>
     <tr>
       <th>Pong</th>
       <td>35.40</td>
-      <td>13.46</td>
+      <td>13.43</td>
+      <td>7.88</td>
       <td>7.88</td>
       <td>0.38</td>
-      <td>1.71</td>
+      <td>1.7</td>
       <td>4.49</td>
     </tr>
     <tr>
       <th>PrivateEye</th>
       <td>20.03</td>
-      <td>7.81</td>
+      <td>7.74</td>
       <td>-</td>
+      <td>6.97</td>
       <td>0.39</td>
       <td>-</td>
       <td>-</td>
@@ -199,8 +215,9 @@
     <tr>
       <th>Qbert</th>
       <td>40.05</td>
-      <td>9.65</td>
+      <td>9.67</td>
       <td>8.24</td>
+      <td>7.11</td>
       <td>0.24</td>
       <td>1.17</td>
       <td>4.86</td>
@@ -208,8 +225,9 @@
     <tr>
       <th>RoadRunner</th>
       <td>52.85</td>
-      <td>26.11</td>
+      <td>26.07</td>
       <td>-</td>
+      <td>8.27</td>
       <td>0.49</td>
       <td>-</td>
       <td>-</td>
@@ -217,29 +235,32 @@
     <tr>
       <th>Seaquest</th>
       <td>28.64</td>
-      <td>17.69</td>
+      <td>17.61</td>
       <td>-</td>
-      <td>0.62</td>
+      <td>7.64</td>
+      <td>0.61</td>
       <td>-</td>
       <td>-</td>
     </tr>
     <tr>
       <th>YarsRevenge</th>
       <td>44.31</td>
-      <td>34.51</td>
+      <td>34.44</td>
       <td>-</td>
+      <td>8.36</td>
       <td>0.78</td>
       <td>-</td>
       <td>-</td>
     </tr>
     <tr>
       <th>Mean</th>
-      <td><b>39.24</b></td>
-      <td><b>22.11</b></td>
-      <td><b>8.7</b></td>
-      <td><b>0.54</b></td>
-      <td><b>2.68</b></td>
-      <td><b>5.28</b></td>
+      <td>39.24</td>
+      <td>22.03</td>
+      <td>8.7</td>
+      <td>7.98</td>
+      <td>0.54</td>
+      <td>2.69</td>
+      <td>5.41</td>
     </tr>
   </tbody>
 </table>
