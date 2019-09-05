@@ -1,19 +1,13 @@
-import torch
-
 import numpy as np
 import pickle
-import matplotlib.pyplot as plt
 import sys
 import time
-import pandas as pd
 import torch
 import torch.nn as nn
 import torch.optim as optim
 import torch.nn.functional as F
 from torch.autograd import Variable
 from torch.distributions import Categorical
-
-import time
 
 import gym
 

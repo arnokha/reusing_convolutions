@@ -11,10 +11,10 @@ for g in $atari_games_list; do
         #    python test_atari_2_layer_base_cpu.py $game 10 20 
         #    #python test_atari_2_layer_new_safe.py $game 20 40 
         #fi
-        #if [ $n_out_channels == "20" ]; then 
-        #    python test_atari_2_layer_base_cpu.py $game 20 40 
-        #    #python test_atari_2_layer_new_safe.py $game 20 40 
-        #fi
+        if [ $n_out_channels == "20" ]; then 
+            python test_atari_2_layer_base_cpu.py $game 20 40 
+            #python test_atari_2_layer_new_safe.py $game 20 40 
+        fi
         if [ $n_out_channels == "40" ]; then 
             python test_atari_2_layer_base_cpu.py $game 40 80 
             #python test_atari_2_layer_new_safe.py $game 40 80 
