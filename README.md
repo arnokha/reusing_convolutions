@@ -66,5 +66,5 @@ _Editing number of filters in each layer_: Download the repo, and edit the bash 
 
 _Editing architecture further and other options_: Download the repo, and edit the python file located in each subfolder (e.g. "reusing_convolutions/performance_tests/INFERENCE_D2/REUSE_CPU/test_atari_2_layer_reuse_cpu.py").
 
-*To rerun tests (without modification)*: Download the repo, and run the bash script in each experiment category directory (e.g. "https://github.com/arnokha/reusing_convolutions/tree/master/performance_tests/INFERENCE_D2/run_tests.sh")  
+*To rerun tests (without modification)*: Download the repo, and run the bash script in each experiment category directory (e.g. "reusing_convolutions/tree/master/performance_tests/INFERENCE_D2/run_tests.sh")  
 Alternatively, to run specific tests, you can edit and run scripts in the subfolders.
