@@ -1,4 +1,4 @@
-Code for paper "Reusing Convolutional Activations from Frame to Frame to Speed up Learning and Inference"
+Code for paper ["Reusing Convolutional Activations from Frame to Frame to Speed up Learning and Inference"](https://arxiv.org/abs/1909.05632)
 
 #### Acknowledgements:
 [Andrej Karpathy](http://karpathy.github.io/2016/05/31/rl/) for main training loop  
